@@ -1,0 +1,20 @@
+name: BasicCauldronAdditions
+author: basicmark
+description: Additional functionality for cauldrons in MineCraft (Bukkit)
+main: io.github.basicmark.basiccauldronadditions.BasicCauldronAdditions
+startup: postworld
+url: https://github.com/basicmark/BasicCauldronAdditions
+depend: []
+softdepend: []
+version: 1.0
+commands:
+    bca:
+        description: Type /bca ? for more info
+        usage: /bca ?
+permissions:
+    basiccauldronadditions.castconcrete:
+        description: Permission node for allowing player to cast concrete blocks
+        default: true
+    basiccauldronadditions.castobsidion:
+        description: Permission node for allowing player to cast obsidionblocks
+        default: true
